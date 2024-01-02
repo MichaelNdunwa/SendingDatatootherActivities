@@ -17,4 +17,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Go Back"
+        app:layout_constraintEnd_toEndOf="@id/displayInfo"
+        app:layout_constraintStart_toStartOf="@id/displayInfo"
+        app:layout_constraintTop_toBottomOf="@id/displayInfo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
